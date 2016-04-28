@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:ProgressCircleView="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical"
+    android:padding="12dp">
+
+    <wang.yuchao.android.library.view.circleprogressbar.CircleProgressBar
+        android:id="@+id/circleProgressBar1"
+        android:layout_width="108dp"
+        android:layout_height="108dp"
+        ProgressCircleView:isSolid="false"
+        ProgressCircleView:progress="0"
+        ProgressCircleView:ringWidth="10px"
+        ProgressCircleView:textColor="@android:color/holo_red_dark"
+        ProgressCircleView:textShown="true"
+        ProgressCircleView:textSize="13sp"/>
+
+    <wang.yuchao.android.library.view.circleprogressbar.CircleProgressBar
+        android:id="@+id/circleProgressBar2"
+        android:layout_width="108dp"
+        android:layout_height="108dp"
+        android:layout_marginTop="12dp"
+        ProgressCircleView:isSolid="true"
+        ProgressCircleView:progress="0"/>
+</LinearLayout>

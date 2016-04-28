@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--自定义进度条-->
+    <declare-styleable name="CircleProgressBar">
+        <attr name="backgroundColor" format="color"/>
+        <attr name="foregroundColor" format="color"/>
+        <attr name="isSolid" format="boolean"/>
+        <attr name="progress" format="float"/>
+        <attr name="ringWidth" format="dimension"/>
+        <attr name="textSize" format="dimension"/>
+        <attr name="textColor" format="color"/>
+        <attr name="textShown" format="boolean"/>
+    </declare-styleable>
+</resources>
