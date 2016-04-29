@@ -1,9 +1,6 @@
-## CircleProgressBar For Android（圆形进度条）
+## CircleProgressBar For Android
 
-- 最低版本 15(Android 4.0.3)
-- 支持空心、实心
-- 支持进度显示
-- 支持前景色和背景色
+- min sdk 15(Android 4.0.3)
 
 ### Demo
 
@@ -13,7 +10,8 @@
 
 ### Update
 
-- 1.0.0 2016/04/28 基本功能完善版本
+#### 1.0.0 
+- 2016/04/28 Basic Function
 
 ### Dependence 
 
@@ -22,7 +20,6 @@ compile 'wang.yuchao.android.library.view.circleprogressbar:CircleProgressBarLib
 ```
 
 ### How To Use
-
 
 **xml file**
 
@@ -43,16 +40,14 @@ compile 'wang.yuchao.android.library.view.circleprogressbar:CircleProgressBarLib
 
 |param|statement|
 |:---|:---|
-|isSolid|环形进度-实心进度|
-|progress|进度（0-100）|
-|ringWidth|环形宽度|
-|textColor|字体颜色|
-|textShown|显示字体|
-|textSize|字体大小|
-|backgroundColor|背景色|
-|foregroundColor|前景色|
-
-
+|isSolid|whether is ring or solid|
+|progress|progress（0-100）|
+|ringWidth|the width of ring|
+|textColor|text color|
+|textShown|whether show text or not|
+|textSize|font size|
+|backgroundColor|backgroundColor|
+|foregroundColor|foregroundColor|
 
 ### Proguard
 
@@ -62,7 +57,6 @@ compile 'wang.yuchao.android.library.view.circleprogressbar:CircleProgressBarLib
 ```
 
 ### [About Me](http://yuchao.wang)
-
 
 ### License
 
