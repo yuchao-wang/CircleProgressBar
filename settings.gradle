@@ -1,1 +1,1 @@
-include ':app', ':CircleProgressBarLibrary'
+include ':sample', ':CircleProgressBarLibrary'
