@@ -1,10 +1,11 @@
-package wang.yuchao.android.library.view.sample.circleprogressbar;
+package wang.yuchao.android.library.view.circlepropressbar.sample;
 
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v4.app.FragmentActivity;
 
 import wang.yuchao.android.library.view.circleprogressbar.CircleProgressBar;
+import wang.yuchao.android.library.view.sample.circleprogressbar.R;
 
 public class MainActivity extends FragmentActivity {
 
