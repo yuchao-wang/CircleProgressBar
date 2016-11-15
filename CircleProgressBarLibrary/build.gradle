@@ -38,7 +38,7 @@ ext {
     siteUrl = 'https://github.com/yuchao-wang/CircleProgressBar'
     gitUrl = 'https://github.com/yuchao-wang/CircleProgressBar.git'
 
-    libraryVersion = '1.0.0'
+    libraryVersion = '1.0.1'
 
     developerId = 'wangyuchao'
     developerName = 'yuchao-wang'
@@ -51,3 +51,6 @@ ext {
 
 apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle'
 apply from: 'https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle'
+
+//        ./gradlew install
+//        ./gradlew bintrayUpload
